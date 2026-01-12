@@ -1,4 +1,14 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"aa" = (
+/obj/structure/largecrate/random/secure{
+	pixel_x = -4
+	},
+/obj/item/trash/kepler/flamehot{
+	pixel_x = -4;
+	pixel_y = 13
+	},
+/turf/open/floor/almayer,
+/area/space)
 "ab" = (
 /obj/effect/decal/heavy_cable/node_n_e_s,
 /obj/structure/pipes/standard/manifold/hidden/supply{
@@ -54,26 +64,22 @@
 /turf/open/floor/plating/plating_catwalk,
 /area/space)
 "aj" = (
-/obj/structure/surface/table/reinforced/almayer_B,
-/obj/structure/machinery/computer/shuttle/dropship/flight/remote_control{
-	dir = 4;
-	name = "Remote dropship navigation computer"
-	},
-/turf/open/floor/almayer,
-/area/space)
-"ak" = (
-/obj/structure/surface/table/reinforced/almayer_blend/north,
 /obj/item/prop/almayer/comp_closed{
 	pixel_x = -2;
 	pixel_y = 1
 	},
 /obj/item/reagent_container/food/drinks/coffeecup/uscm{
-	pixel_x = 4;
-	pixel_y = 8
+	pixel_x = 10;
+	pixel_y = 14
 	},
-/obj/item/ashtray/plastic{
-	pixel_x = 5;
-	pixel_y = -15
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/structure/machinery/hybrisa/coffee_machine{
+	pixel_y = 15;
+	pixel_x = -4
+	},
+/obj/item/reagent_container/food/drinks/coffeecup/wy{
+	pixel_x = 3;
+	pixel_y = 5
 	},
 /turf/open/floor/almayer,
 /area/space)
@@ -111,11 +117,22 @@
 /turf/open/floor/plating/plating_catwalk,
 /area/space)
 "aq" = (
+/obj/item/prop/almayer/comp_closed{
+	pixel_x = -3
+	},
 /obj/structure/surface/table/reinforced/almayer_B,
-/turf/open/floor/almayer,
-/area/space)
-"ar" = (
-/obj/structure/surface/table/reinforced/almayer_blend/north,
+/obj/item/storage/fancy/cigar/matchbook/koorlander{
+	pixel_x = -4;
+	pixel_y = 3
+	},
+/obj/item/storage/fancy/cigarettes/lucky_strikes{
+	pixel_x = -5;
+	pixel_y = 17
+	},
+/obj/item/ashtray/plastic{
+	pixel_x = 7;
+	pixel_y = 9
+	},
 /turf/open/floor/almayer,
 /area/space)
 "as" = (
@@ -139,6 +156,79 @@
 /obj/effect/decal/heavy_cable/cable_horizontal,
 /turf/open/space/basic,
 /turf/open/floor/plating/plating_catwalk,
+/area/space)
+"av" = (
+/obj/structure/largecrate/random/mini/chest/c{
+	pixel_x = -6;
+	pixel_y = -3
+	},
+/obj/structure/largecrate/random/mini/small_case{
+	pixel_y = 7;
+	pixel_x = 1;
+	layer = 3.1
+	},
+/turf/open/floor/almayer,
+/area/space)
+"aw" = (
+/obj/structure/largecrate/random/case/small{
+	pixel_x = -16;
+	pixel_y = -2
+	},
+/obj/item/storage/toolbox/mechanical{
+	pixel_y = 3;
+	pixel_x = -14
+	},
+/turf/open/floor/almayer,
+/area/space)
+"ax" = (
+/obj/structure/surface/rack,
+/obj/item/trash/hybrisa/cuppa_joes_static/empty_cup_stack{
+	pixel_y = 2;
+	pixel_x = -4
+	},
+/obj/item/trash/hybrisa/cuppa_joes_static/lid_stack{
+	pixel_x = 5;
+	pixel_y = 3
+	},
+/turf/open/floor/almayer,
+/area/space)
+"ay" = (
+/obj/item/prop{
+	icon = 'icons/obj/structures/props/stationobjs.dmi';
+	icon_state = "pipe_d";
+	density = 1;
+	desc = "A pump used for refueling the dropship.";
+	name = "refueling pump"
+	},
+/turf/open/floor/almayer,
+/area/space)
+"az" = (
+/obj/structure/surface/rack,
+/obj/structure/dropship_equipment/fuel/fuel_enhancer,
+/turf/open/floor/almayer,
+/area/space)
+"aA" = (
+/obj/item/prop{
+	icon = 'icons/obj/structures/props/stationobjs.dmi';
+	icon_state = "pipe_d";
+	density = 1;
+	desc = "A pump used for refueling the dropship.";
+	name = "refueling pump";
+	layer = 3.03
+	},
+/obj/item/trash/kepler{
+	pixel_y = -7;
+	pixel_x = 1
+	},
+/turf/open/floor/almayer,
+/area/space)
+"aB" = (
+/obj/structure/largecrate/random/case/double,
+/obj/item/storage/toolbox/mechanical{
+	pixel_y = 12;
+	pixel_x = 7
+	},
+/turf/open/floor/almayer,
 /area/space)
 "bk" = (
 /turf/open/floor/plating,
@@ -303,10 +393,6 @@
 	pixel_y = 2;
 	pixel_x = -1
 	},
-/turf/open/floor/almayer,
-/area/space)
-"nH" = (
-/obj/structure/surface/table/reinforced/almayer_blend,
 /turf/open/floor/almayer,
 /area/space)
 "nT" = (
@@ -6385,6 +6471,19 @@ Dz
 Dz
 Dz
 Dz
+Dz
+fE
+fE
+fE
+Dz
+Dz
+Dz
+Dz
+Dz
+Dz
+Dz
+Dz
+Dz
 fE
 fE
 fE
@@ -6398,24 +6497,11 @@ Dz
 Dz
 Dz
 Dz
-fE
-fE
-fE
-fE
-fE
-Dz
-Dz
-Dz
-Dz
-Dz
-Dz
-Dz
 Dz
 fE
 fE
 fE
-fE
-fE
+Dz
 Dz
 Dz
 Dz
@@ -6588,9 +6674,9 @@ Dz
 Dz
 Dz
 fE
-ar
+fE
 aq
-nH
+fE
 fE
 Dz
 Dz
@@ -6614,9 +6700,9 @@ Dz
 Dz
 Dz
 fE
-ak
+fE
 aj
-nH
+fE
 fE
 Dz
 Dz
@@ -6790,9 +6876,9 @@ Dz
 Dz
 fE
 fE
+al
 nT
-nT
-nT
+al
 fE
 fE
 Dz
@@ -6806,19 +6892,19 @@ al
 nT
 nT
 nT
+az
+fE
+Dz
+Dz
+Dz
+Dz
+Dz
+Dz
+fE
+fE
+ax
+nT
 al
-fE
-Dz
-Dz
-Dz
-Dz
-Dz
-Dz
-fE
-fE
-nT
-nT
-nT
 fE
 fE
 Dz
@@ -6991,11 +7077,11 @@ fE
 fE
 fE
 lu
+aB
 nT
 nT
 nT
-nT
-nT
+aA
 lu
 fE
 fE
@@ -7017,11 +7103,11 @@ lu
 lu
 lu
 lu
+ay
 nT
 nT
 nT
-nT
-nT
+av
 lu
 lu
 lu
@@ -7223,8 +7309,8 @@ nT
 nT
 nT
 nT
-nT
-nT
+aw
+aa
 nT
 nT
 nT
