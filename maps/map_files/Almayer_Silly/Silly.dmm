@@ -106,8 +106,13 @@
 /turf/open/floor/plating/plating_catwalk,
 /area/space)
 "aq" = (
-/obj/item/trash/cigbutt/cigarbutt,
-/turf/open/floor/almayer,
+/obj/effect/decal/warning_stripes{
+	icon_state = "door_warning";
+	dir = 8
+	},
+/turf/open/floor/almayer/flooredgesmooth/east{
+	dir = 8
+	},
 /area/space)
 "as" = (
 /obj/effect/decal/heavy_cable/node_n_w_e,
@@ -120,13 +125,8 @@
 /turf/open/floor/plating/plating_catwalk,
 /area/space)
 "au" = (
-/obj/effect/decal/warning_stripes{
-	icon_state = "door_warning";
-	dir = 4
-	},
-/turf/open/floor/almayer/flooredgesmooth/west{
-	dir = 4
-	},
+/obj/item/trash/cigbutt/cigarbutt,
+/turf/open/floor/almayer,
 /area/space)
 "av" = (
 /obj/structure/largecrate/random/mini/chest/c{
@@ -180,37 +180,19 @@
 /area/space)
 "aA" = (
 /obj/effect/decal/warning_stripes{
-	icon_state = "door_warning";
-	dir = 8
+	icon_state = "cargo_arrow";
+	dir = 2
 	},
-/turf/open/floor/almayer/flooredgesmooth/east{
-	dir = 8
-	},
+/turf/open/floor/almayer/flooredgesmooth/south,
 /area/space)
 "aB" = (
-/obj/item/prop/almayer/comp_closed{
-	pixel_x = -3
+/obj/effect/decal/warning_stripes{
+	icon_state = "door_warning";
+	dir = 4
 	},
-/obj/structure/surface/table/reinforced/almayer_B,
-/obj/item/storage/fancy/cigar/matchbook/koorlander{
-	pixel_x = -4;
-	pixel_y = 3
+/turf/open/floor/almayer/flooredgesmooth/west{
+	dir = 4
 	},
-/obj/item/storage/fancy/cigarettes/lucky_strikes{
-	pixel_x = -5;
-	pixel_y = 17
-	},
-/obj/item/ashtray/plastic{
-	pixel_x = 7;
-	pixel_y = 9;
-	max_butts = 0;
-	icon_state = "ashtray_full_bl"
-	},
-/obj/item/clothing/mask/cigarette/cigar{
-	pixel_x = 5;
-	pixel_y = 2
-	},
-/turf/open/floor/almayer,
 /area/space)
 "bk" = (
 /turf/open/floor/plating,
@@ -259,14 +241,6 @@
 	},
 /turf/open/floor/almayer,
 /area/space)
-"dY" = (
-/obj/item/trash/cigbutt{
-	layer = 3.04;
-	pixel_y = 15;
-	pixel_x = -13
-	},
-/turf/open/floor/almayer,
-/area/space)
 "ea" = (
 /obj/structure/machinery/landinglight/ds1/delayone,
 /turf/open/floor/almayer,
@@ -277,25 +251,6 @@
 /area/space)
 "fE" = (
 /turf/closed/wall/almayer,
-/area/space)
-"gM" = (
-/obj/structure/surface/rack,
-/obj/item/trash/cigbutt{
-	layer = 3.04;
-	pixel_y = 5;
-	pixel_x = 3
-	},
-/obj/item/trash/cigbutt{
-	layer = 3.04;
-	pixel_x = -7;
-	pixel_y = 13
-	},
-/obj/item/trash/cigbutt{
-	layer = 3.04;
-	pixel_x = 2;
-	pixel_y = -2
-	},
-/turf/open/floor/almayer,
 /area/space)
 "iq" = (
 /obj/effect/decal/warning_stripes{
@@ -387,13 +342,6 @@
 	},
 /turf/open/floor/almayer,
 /area/space)
-"oJ" = (
-/obj/effect/decal/warning_stripes{
-	icon_state = "cargo_arrow";
-	dir = 1
-	},
-/turf/open/floor/almayer/flooredgesmooth/north,
-/area/space)
 "pg" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "NE-out";
@@ -425,6 +373,34 @@
 	},
 /turf/open/floor/almayer,
 /area/space)
+"rR" = (
+/obj/structure/surface/rack,
+/obj/item/storage/fancy/cigarettes/lucky_strikes{
+	pixel_x = 6;
+	pixel_y = -3
+	},
+/obj/item/storage/fancy/cigarettes/lucky_strikes{
+	pixel_x = 6;
+	pixel_y = 7
+	},
+/obj/item/storage/fancy/cigarettes/lucky_strikes{
+	pixel_x = 6;
+	pixel_y = 17
+	},
+/obj/item/storage/fancy/cigarettes/lucky_strikes{
+	pixel_x = -6;
+	pixel_y = -3
+	},
+/obj/item/storage/fancy/cigarettes/lucky_strikes{
+	pixel_x = -6;
+	pixel_y = 7
+	},
+/obj/item/storage/fancy/cigarettes/lucky_strikes{
+	pixel_x = -6;
+	pixel_y = 17
+	},
+/turf/open/floor/almayer,
+/area/space)
 "sh" = (
 /obj/structure/machinery/landinglight/ds1/delayone{
 	dir = 8
@@ -439,6 +415,14 @@
 /obj/structure/pipes/vents,
 /obj/structure/pipes/standard/manifold/fourway/hidden/supply,
 /turf/open/floor/plating/plating_catwalk,
+/area/space)
+"tq" = (
+/obj/item/trash/cigbutt{
+	layer = 3.04;
+	pixel_y = -8;
+	pixel_x = 4
+	},
+/turf/open/floor/almayer,
 /area/space)
 "uB" = (
 /obj/structure/platform/metal/almayer_smooth,
@@ -465,14 +449,6 @@
 /obj/structure/machinery/floodlight/landing,
 /turf/open/floor/almayer/plate,
 /area/space)
-"wo" = (
-/obj/item/trash/cigbutt{
-	layer = 3.04;
-	pixel_y = 12;
-	pixel_x = -6
-	},
-/turf/open/floor/almayer,
-/area/space)
 "xj" = (
 /obj/structure/machinery/landinglight/ds1/delayone{
 	dir = 1
@@ -492,6 +468,12 @@
 	},
 /turf/open/floor/almayer/plate,
 /area/space)
+"yg" = (
+/obj/effect/vehicle_spawner/apc{
+	dir = 1
+	},
+/turf/open/floor/almayer/mono,
+/area/space)
 "yP" = (
 /obj/structure/machinery/landinglight/ds1/delayone{
 	dir = 1
@@ -502,40 +484,9 @@
 	},
 /turf/open/floor/almayer,
 /area/space)
-"zG" = (
-/obj/item/prop{
-	icon = 'icons/obj/structures/props/stationobjs.dmi';
-	icon_state = "pipe_d";
-	density = 1;
-	desc = "A pump used for refueling the dropship.";
-	name = "refueling pump";
-	layer = 3.03
-	},
-/obj/item/trash/kepler{
-	pixel_y = -7;
-	pixel_x = 1
-	},
-/obj/item/clothing/mask/cigarette{
-	layer = 3.04;
-	pixel_y = 11;
-	pixel_x = 8
-	},
-/obj/item/ashtray/bronze{
-	layer = 3.04;
-	pixel_x = -10;
-	pixel_y = 3;
-	max_butts = 0;
-	icon_state = "ashtray_full_br"
-	},
-/obj/item/trash/cigbutt{
-	layer = 3.04;
-	pixel_x = -2;
-	pixel_y = 9
-	},
-/obj/item/trash/cigbutt{
-	layer = 3.04;
-	pixel_x = -3;
-	pixel_y = 12
+"ze" = (
+/obj/structure/machinery/door/airlock/multi_tile/almayer/marine/bravo{
+	dir = 1
 	},
 /turf/open/floor/almayer,
 /area/space)
@@ -545,6 +496,29 @@
 	dir = 4
 	},
 /turf/open/floor/plating/plating_catwalk,
+/area/space)
+"Au" = (
+/obj/effect/decal/warning_stripes{
+	icon_state = "cargo_arrow";
+	dir = 1
+	},
+/turf/open/floor/almayer/flooredgesmooth/north,
+/area/space)
+"AY" = (
+/obj/item/trash/cigbutt{
+	layer = 3.04;
+	pixel_y = 15;
+	pixel_x = -13
+	},
+/turf/open/floor/almayer,
+/area/space)
+"Bk" = (
+/obj/item/trash/cigbutt{
+	layer = 3.04;
+	pixel_y = 12;
+	pixel_x = -6
+	},
+/turf/open/floor/almayer,
 /area/space)
 "BO" = (
 /obj/structure/machinery/landinglight/ds1/delaytwo{
@@ -607,6 +581,31 @@
 "GA" = (
 /turf/open/floor/almayer/flooredgesmooth/south,
 /area/space)
+"HS" = (
+/obj/item/prop/almayer/comp_closed{
+	pixel_x = -3
+	},
+/obj/structure/surface/table/reinforced/almayer_B,
+/obj/item/storage/fancy/cigar/matchbook/koorlander{
+	pixel_x = -4;
+	pixel_y = 3
+	},
+/obj/item/storage/fancy/cigarettes/lucky_strikes{
+	pixel_x = -5;
+	pixel_y = 17
+	},
+/obj/item/ashtray/plastic{
+	pixel_x = 7;
+	pixel_y = 9;
+	max_butts = 0;
+	icon_state = "ashtray_full_bl"
+	},
+/obj/item/clothing/mask/cigarette/cigar{
+	pixel_x = 5;
+	pixel_y = 2
+	},
+/turf/open/floor/almayer,
+/area/space)
 "HZ" = (
 /obj/structure/machinery/landinglight/ds1{
 	dir = 8
@@ -624,22 +623,6 @@
 	dir = 8
 	},
 /turf/open/floor/almayer/plate,
-/area/space)
-"Ij" = (
-/obj/item/trash/cigbutt{
-	layer = 3.04;
-	pixel_y = -8;
-	pixel_x = 4
-	},
-/turf/open/floor/almayer,
-/area/space)
-"Ix" = (
-/obj/item/trash/cigbutt{
-	layer = 3.04;
-	pixel_y = -3;
-	pixel_x = -10
-	},
-/turf/open/floor/almayer,
 /area/space)
 "IG" = (
 /obj/structure/platform/metal/almayer_smooth/north,
@@ -664,12 +647,39 @@
 	},
 /turf/open/floor/almayer,
 /area/space)
-"Ji" = (
-/obj/effect/decal/warning_stripes{
-	icon_state = "cargo_arrow";
-	dir = 2
+"Jk" = (
+/obj/item/trash/cigbutt{
+	layer = 3.04;
+	pixel_y = -3;
+	pixel_x = -10
 	},
-/turf/open/floor/almayer/flooredgesmooth/south,
+/turf/open/floor/almayer,
+/area/space)
+"JN" = (
+/obj/structure/sign/safety/coffee{
+	pixel_x = 14;
+	pixel_y = 2
+	},
+/turf/closed/wall/almayer,
+/area/space)
+"JQ" = (
+/obj/structure/surface/rack,
+/obj/item/trash/cigbutt{
+	layer = 3.04;
+	pixel_y = 5;
+	pixel_x = 3
+	},
+/obj/item/trash/cigbutt{
+	layer = 3.04;
+	pixel_x = -7;
+	pixel_y = 13
+	},
+/obj/item/trash/cigbutt{
+	layer = 3.04;
+	pixel_x = 2;
+	pixel_y = -2
+	},
+/turf/open/floor/almayer,
 /area/space)
 "Kq" = (
 /obj/structure/machinery/landinglight/ds1/delaytwo,
@@ -688,48 +698,6 @@
 	},
 /turf/open/floor/almayer,
 /area/space)
-"Op" = (
-/obj/structure/largecrate/random/case/double,
-/obj/item/storage/toolbox/mechanical{
-	pixel_y = 12;
-	pixel_x = 7
-	},
-/obj/item/ashtray/plastic{
-	pixel_x = -8;
-	pixel_y = 9;
-	max_butts = 0;
-	icon_state = "ashtray_full_bl"
-	},
-/turf/open/floor/almayer,
-/area/space)
-"PF" = (
-/obj/structure/surface/rack,
-/obj/item/storage/fancy/cigarettes/lucky_strikes{
-	pixel_x = 6;
-	pixel_y = -3
-	},
-/obj/item/storage/fancy/cigarettes/lucky_strikes{
-	pixel_x = 6;
-	pixel_y = 7
-	},
-/obj/item/storage/fancy/cigarettes/lucky_strikes{
-	pixel_x = 6;
-	pixel_y = 17
-	},
-/obj/item/storage/fancy/cigarettes/lucky_strikes{
-	pixel_x = -6;
-	pixel_y = -3
-	},
-/obj/item/storage/fancy/cigarettes/lucky_strikes{
-	pixel_x = -6;
-	pixel_y = 7
-	},
-/obj/item/storage/fancy/cigarettes/lucky_strikes{
-	pixel_x = -6;
-	pixel_y = 17
-	},
-/turf/open/floor/almayer,
-/area/space)
 "PP" = (
 /obj/effect/decal/warning_stripes{
 	icon_state = "door_warning"
@@ -740,13 +708,6 @@
 /obj/structure/platform/metal/almayer_smooth/north,
 /obj/structure/platform/metal/almayer_smooth/east,
 /turf/open_space,
-/area/space)
-"Qp" = (
-/obj/structure/sign/safety/coffee{
-	pixel_x = 14;
-	pixel_y = 2
-	},
-/turf/closed/wall/almayer,
 /area/space)
 "Qt" = (
 /obj/structure/machinery/landinglight/ds1/delayone{
@@ -759,6 +720,14 @@
 	dir = 1
 	},
 /turf/open/floor/almayer/plate,
+/area/space)
+"QC" = (
+/obj/item/trash/cigbutt{
+	layer = 3.04;
+	pixel_y = -7;
+	pixel_x = -4
+	},
+/turf/open/floor/almayer,
 /area/space)
 "QQ" = (
 /obj/structure/machinery/landinglight/ds1/delaythree{
@@ -780,6 +749,20 @@
 	},
 /turf/open/floor/almayer/plate,
 /area/space)
+"Ru" = (
+/obj/structure/largecrate/random/case/double,
+/obj/item/storage/toolbox/mechanical{
+	pixel_y = 12;
+	pixel_x = 7
+	},
+/obj/item/ashtray/plastic{
+	pixel_x = -8;
+	pixel_y = 9;
+	max_butts = 0;
+	icon_state = "ashtray_full_bl"
+	},
+/turf/open/floor/almayer,
+/area/space)
 "Sg" = (
 /obj/structure/machinery/landinglight/ds1,
 /turf/open/floor/almayer,
@@ -797,22 +780,69 @@
 	dir = 8
 	},
 /area/space)
+"TQ" = (
+/obj/effect/vehicle_spawner/apc,
+/turf/open/floor/almayer/mono,
+/area/space)
+"TU" = (
+/obj/item/prop{
+	icon = 'icons/obj/structures/props/stationobjs.dmi';
+	icon_state = "pipe_d";
+	density = 1;
+	desc = "A pump used for refueling the dropship.";
+	name = "refueling pump";
+	layer = 3.03
+	},
+/obj/item/trash/kepler{
+	pixel_y = -7;
+	pixel_x = 1
+	},
+/obj/item/clothing/mask/cigarette{
+	layer = 3.04;
+	pixel_y = 11;
+	pixel_x = 8
+	},
+/obj/item/ashtray/bronze{
+	layer = 3.04;
+	pixel_x = -10;
+	pixel_y = 3;
+	max_butts = 0;
+	icon_state = "ashtray_full_br"
+	},
+/obj/item/trash/cigbutt{
+	layer = 3.04;
+	pixel_x = -2;
+	pixel_y = 9
+	},
+/obj/item/trash/cigbutt{
+	layer = 3.04;
+	pixel_x = -3;
+	pixel_y = 12
+	},
+/turf/open/floor/almayer,
+/area/space)
 "Ux" = (
 /obj/structure/machinery/landinglight/ds1{
 	dir = 1
 	},
 /turf/open/floor/almayer/plate,
 /area/space)
-"WW" = (
-/obj/structure/machinery/landinglight/ds1,
-/turf/open/floor/almayer/plate,
-/area/space)
-"Xj" = (
+"UQ" = (
 /obj/structure/surface/rack,
 /obj/item/storage/fancy/cigarettes/lucky_strikes_4{
 	pixel_x = -5
 	},
 /turf/open/floor/almayer,
+/area/space)
+"Vr" = (
+/obj/structure/machinery/door/airlock/multi_tile/almayer/marine/alpha{
+	dir = 1
+	},
+/turf/open/floor/almayer,
+/area/space)
+"WW" = (
+/obj/structure/machinery/landinglight/ds1,
+/turf/open/floor/almayer/plate,
 /area/space)
 "XG" = (
 /obj/effect/decal/heavy_cable/node_n_s_e_w,
@@ -826,14 +856,6 @@
 	dir = 1
 	},
 /turf/open/floor/almayer/mono,
-/area/space)
-"XN" = (
-/obj/item/trash/cigbutt{
-	layer = 3.04;
-	pixel_y = -7;
-	pixel_x = -4
-	},
-/turf/open/floor/almayer,
 /area/space)
 "Yi" = (
 /obj/effect/decal/warning_stripes{
@@ -30568,7 +30590,7 @@ Dz
 Dz
 fE
 fE
-aB
+HS
 fE
 fE
 Dz
@@ -30580,7 +30602,7 @@ Dz
 Dz
 fE
 fE
-Xj
+UQ
 am
 al
 fE
@@ -30595,7 +30617,7 @@ Dz
 fE
 fE
 aj
-Qp
+JN
 fE
 Dz
 Dz
@@ -30769,9 +30791,9 @@ Dz
 Dz
 fE
 fE
-PF
-wo
-gM
+rR
+Bk
+JQ
 fE
 fE
 Dz
@@ -30970,11 +30992,11 @@ fE
 fE
 fE
 fE
-Op
-Ij
-aq
-Ix
-zG
+Ru
+tq
+au
+Jk
+TU
 fE
 fE
 fE
@@ -31173,8 +31195,8 @@ nT
 nT
 nT
 nT
-dY
-XN
+AY
+QC
 nT
 nT
 nT
@@ -35421,11 +35443,11 @@ nT
 nT
 nT
 fE
-au
-au
-au
-au
-au
+aB
+aB
+aB
+aB
+aB
 nT
 nT
 nT
@@ -35433,11 +35455,11 @@ Ah
 nT
 nT
 nT
-au
-au
-au
-au
-au
+aB
+aB
+aB
+aB
+aB
 fE
 nT
 nT
@@ -35628,13 +35650,13 @@ Dy
 Dy
 Dy
 Dy
-oJ
+Au
 nT
 nT
 Ah
 nT
 nT
-Ji
+aA
 Dy
 Dy
 Dy
@@ -35827,19 +35849,19 @@ nT
 fE
 Dy
 Dy
+TQ
 Dy
 Dy
-Dy
-oJ
+Au
 nT
 nT
 Ah
 nT
 nT
-Ji
+aA
 Dy
 Dy
-Dy
+yg
 Dy
 Dy
 fE
@@ -36032,13 +36054,13 @@ Dy
 Dy
 Dy
 Dy
-oJ
+Au
 nT
 nT
 Ah
 nT
 nT
-Ji
+aA
 Dy
 Dy
 Dy
@@ -36229,11 +36251,11 @@ nT
 nT
 nT
 fE
-aA
-aA
-aA
-aA
-aA
+aq
+aq
+aq
+aq
+aq
 nT
 nT
 nT
@@ -36241,11 +36263,11 @@ Ah
 nT
 nT
 nT
-aA
-aA
-aA
-aA
-aA
+aq
+aq
+aq
+aq
+aq
 fE
 nT
 nT
@@ -36640,10 +36662,10 @@ fE
 fE
 fE
 nT
-nT
+Vr
 fE
 nT
-nT
+ze
 fE
 fE
 fE
