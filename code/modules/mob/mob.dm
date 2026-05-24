@@ -444,8 +444,8 @@
 		return TRUE
 
 	if(href_list["flavor_more"])
-		show_browser(usr, "<BODY><TT>[replacetext(flavor_text, "\n", "<BR>")]</TT></BODY>", name, name, width = 500, height = 200)
-		onclose(usr, "[name]")
+		var/static/datum/flavor_text_viewer/flavor_text_viewer = new
+		flavor_text_viewer.tgui_interact(src)
 		return TRUE
 
 	if(href_list["flavor_change"])
